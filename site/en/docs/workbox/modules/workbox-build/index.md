@@ -136,7 +136,7 @@ We expect that `generateSW` or `injectManifest` will suit most developers' needs
 
 This is conceptually similar to the `injectManifest` mode, but instead of adding the manifest into the source service worker file, it returns the array of manifest entries, along with information about the number of entries and total size.
 
-You can use the `injectManifest` mode within a node-based build script, using the most common [configuration options](/docs/workbox/reference/workbox-build/#type-GetManifestOptions), like so:
+You can use the `getManifest` mode within a node-based build script, using the most common [configuration options](/docs/workbox/reference/workbox-build/#type-GetManifestOptions), like so:
 
 ```js
 // Inside of build.js:
